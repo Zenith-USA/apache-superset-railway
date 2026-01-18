@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     default-libmysqlclient-dev \
     libpq-dev \
     build-essential \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* && echo "cache bust"
 
 RUN . /app/.venv/bin/activate && pip install mysqlclient psycopg2
 
