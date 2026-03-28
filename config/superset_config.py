@@ -2,6 +2,15 @@ import os
 
 FEATURE_FLAGS = {
     "ENABLE_TEMPLATE_PROCESSING": True,
+    "ENABLE_EXPLORE_DRAG_AND_DROP": True,
+    "DECK_GL_CHARTS": True,
+    "DASHBOARD_CROSS_FILTERS": True,
+    "DASHBOARD_NATIVE_FILTERS": True,
+    "DRILL_TO_DETAIL": True,
+    "DRILL_BY": True,
+    "ALERT_REPORTS": True,
+    "CACHE_WARMUP": True,
+    "THUMBNAILS": True,
 }
 
 ENABLE_PROXY_FIX = True
