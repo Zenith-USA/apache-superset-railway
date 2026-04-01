@@ -14,6 +14,7 @@ FEATURE_FLAGS = {
 }
 
 ENABLE_PROXY_FIX = True
+WTF_CSRF_ENABLED = False
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
